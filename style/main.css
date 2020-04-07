@@ -5,9 +5,22 @@ html {
     scroll-behavior: smooth;
 }
 *, *:before, *:after {
--webkit-box-sizing: inherit;
--moz-box-sizing: inherit;
-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: 'Monofett', cursive;
+    font-size: 60px;
+    color: red;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    margin: 5px;
 }
 
 .page-heading {
@@ -16,6 +29,7 @@ box-sizing: inherit;
     text-align: center;
     width: 100%;
     background-color: lightgoldenrodyellow;
+    border-radius: 18px;
 }
 
 .all-pictures-container {
@@ -38,7 +52,7 @@ box-sizing: inherit;
 }
 
 .picture-container:hover {
-    width: 32%;
+    width: 30%;
     height: 410px;
 }
 
@@ -62,12 +76,17 @@ box-sizing: inherit;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .picture-information .date {
     margin: 2%;
+    font-size: 18px;
+    color: royalblue;
 }
 
 .picture-information .description {
     margin: 1%;
+    font-size: 16px;
+    color: black;
 }
