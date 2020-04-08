@@ -216,3 +216,79 @@ h3 {
 .img29 {
     background-image: url("../assets/17-6-16_2.jpeg");
 }
+
+@media screen and (max-width: 1024px) {
+    .page-heading h1 {
+        font-size: 60px;
+    }
+    .picture-container {
+        width: 30%;
+        margin: 10px 5px 10px 5px;
+    }
+    .picture-information {
+        display: flex;
+    }
+    .picture-container .image {
+        height: 332px;
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .page-heading h1 {
+        font-size: 50px;
+    }
+    .page-heading h2 {
+        font-size: 26px;
+    }
+    .page-heading h3 {
+        font-size: 20px;
+    }
+    .picture-container {
+        width: 40%;
+        height: 410px;
+        margin: 8px 4px 8px 4px;
+    }
+    .picture-container:hover {
+        width: 41%;
+        height: 420px;
+    }
+    .picture-information {
+        display: flex;
+    }
+}   
+
+@media screen and (max-width: 600px) {
+    .page-heading h1 {
+        font-size: 40px;
+    }
+    .page-heading h2 {
+        font-size: 22px;
+    }
+    .page-heading h3 {
+        font-size: 18px;
+    }
+    .picture-container {
+        width: 80%;
+        margin: 8px 4px 8px 4px;
+    }
+    .picture-container:hover {
+        width: 82%;
+        height: 420px;
+    }
+    .picture-information {
+        display: flex;
+    }
+    .picture-container .image {
+        height: 360px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .picture-information .date {
+        margin: 0;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .picture-information .description {
+        font-size: 12px;
+    }
+}
