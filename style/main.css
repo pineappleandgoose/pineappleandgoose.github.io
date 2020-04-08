@@ -10,10 +10,14 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: #fcf7bb;
+}
+
 h1 {
     font-family: 'Monofett', cursive;
-    font-size: 60px;
-    color: red;
+    font-size: 72px;
+    color: #ebb536;
     margin: 10px;
 }
 
@@ -21,11 +25,13 @@ h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 28px;
     margin: 5px;
+    color: #f19292;
 }
 h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     margin: 5px;
+    font-weight: 300;
 }
 
 .page-heading {
@@ -33,7 +39,6 @@ h3 {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    background-color: lightgoldenrodyellow;
     border-radius: 18px;
 }
 
@@ -50,7 +55,7 @@ h3 {
 .picture-container {
     width: 27%;
     height: 400px;
-    background-color: lightcoral;
+    background-color:#f19292;
     margin: 20px 0px 20px 0px;
     transition: 0.8s;
     border-radius: 20px;
@@ -86,7 +91,8 @@ h3 {
 .picture-information .date {
     margin: 2%;
     font-size: 16px;
-    color: royalblue;
+    color: #cbe2b0;
+    font-weight: 500;
 }
 
 .picture-information .description {
@@ -94,6 +100,7 @@ h3 {
     font-size: 14px;
     line-height: 14px;
     color: black;
+    font-weight: 300;
 }
 
 /* Images */
