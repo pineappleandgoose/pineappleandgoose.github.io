@@ -217,7 +217,7 @@ h3 {
     background-image: url("../assets/17-6-16_2.jpeg");
 }
 
-@media screen and (max-width: 1160px) {
+/* @media screen and (max-width: 1160px) {
     .picture-information {
         display: flex;
     }
@@ -225,7 +225,7 @@ h3 {
         height: 332px;
         border-radius: 20px 20px 0px 0px;
     }
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .page-heading h1 {
