@@ -217,9 +217,15 @@ h3 {
     background-image: url("../assets/17-6-16_2.jpeg");
 }
 
+@media screen and (max-width: 1400px) {
+    .picture-information {
+        display: flex;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .page-heading h1 {
-        font-size: 60px;
+        font-size: 56px;
     }
     .picture-container {
         width: 30%;
@@ -236,7 +242,7 @@ h3 {
 
 @media screen and (max-width: 800px) {
     .page-heading h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .page-heading h2 {
         font-size: 26px;
@@ -260,10 +266,10 @@ h3 {
 
 @media screen and (max-width: 600px) {
     .page-heading h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
     .page-heading h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .page-heading h3 {
         font-size: 18px;
